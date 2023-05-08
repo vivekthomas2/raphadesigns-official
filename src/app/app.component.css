@@ -127,7 +127,7 @@ header .nav li:hover {
 
 @media (max-width:1000px) {
     .hero h1 {
-        font-size: 75px;
+        font-size: 65px;
     }
 }
 
@@ -206,28 +206,30 @@ header .nav li:hover {
     .services ul {
         flex-direction: row;
     }
-    .services ul li{
-        padding:12px;
+
+    .services ul li {
+        padding: 12px;
         font-size: 12px;
     }
 
-    .services ul li img{
+    .services ul li img {
         width: 88px;
     }
 
     .values {
         flex-direction: row;
     }
-    .values ul li{
-        padding:12px;
+
+    .values ul li {
+        padding: 12px;
         font-size: 12px;
     }
 
-    .values ul li img{
+    .values ul li img {
         width: 88px;
     }
-    
-    .brief{
+
+    .brief {
         font-size: 18px;
     }
 }
@@ -236,46 +238,54 @@ header .nav li:hover {
     .services ul {
         flex-direction: column;
     }
-    
-    .services ul li{
+
+    .services ul li {
         font-size: 8px;
     }
 
-    
+
     .services h1 {
         font-size: 35px;
     }
+
     .values ul {
         flex-direction: column;
     }
+
     .values h1 {
         font-size: 35px;
     }
-    .brief{
+
+    .brief {
         font-size: 10px;
     }
 }
-.container{
+
+.container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 125px;
 }
-.container img{
-    width:500px;
+
+.container img {
+    width: 500px;
+
 }
-.contact-form{
+
+.contact-form {
     min-height: 70vh;
     border: 2px solid #65acff;
     border-radius: 25px;
     padding: 95px;
 }
 
-form{
-   display: flex;
-   flex-direction: column;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-form input,form textarea{
+form input,
+form textarea {
     border: 0;
     margin: 10px 0;
     padding: 20px;
@@ -284,9 +294,108 @@ form input,form textarea{
     border-radius: 12px;
     color: #fff;
 }
-form h1{
+
+form h1 {
     color: #65acff;
     text-align: center;
     font-size: 45px;
     text-decoration: underline;
+}
+
+button {
+    background: none;
+    color: #fff;
+    padding-top: 62px;
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+    .container img {
+        width: 400px;
+    }
+}
+
+@media (max-width:600px) {
+    .container img {
+        display: none;
+    }
+}
+
+footer {
+    background: #001B47;
+    min-width: 100%;
+}
+
+.ft-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 12px;
+    padding-top: 18px;
+}
+
+footer li {
+    font-size: 18px;
+}
+
+.logo {
+    width: 125px;
+}
+
+.nav-links li {
+    padding: 8px;
+}
+
+.protfolio li {
+    padding: 5px;
+}
+
+.socio-links li {
+    padding: 8px;
+}
+
+.address {
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.address img {
+    width: 110px;
+}
+
+.contact-links img {
+    width: 25px;
+}
+
+.btm {
+    color: #909090;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btm img {
+    width: 5px;
+}
+
+.btm h6 {
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+    text-decoration: none;
+}
+
+@media (max-width:1000px) {
+    .container img {
+        width: 400px;
+    }
+}
+
+@media (max-width:600px) {
+    .ft-container {
+        flex-direction: column;
+        padding-left: 200px;
+    }
 }
