@@ -87,12 +87,12 @@ header .nav li:hover {
     }
 }
 
-.hero {
-    position: relative;
-    justify-content: center;
-    min-height: 100vh;
-    color: #fff;
-}
+    .hero {
+        position: relative;
+        justify-content: center;
+        min-height: 100vh;
+        color: #fff;
+    }
 
 .hero video {
     position: absolute;
